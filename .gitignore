@@ -1,8 +1,0 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/.vs/OrionMetis
-/OrionMetis.EmailService/obj/Debug/netcoreapp3.1/OrionMetis.EmailService.csprojAssemblyReference.cache
-/OrionMetis.Web/bin/Debug/netstandard2.1
-/OrionMetis.Web/obj

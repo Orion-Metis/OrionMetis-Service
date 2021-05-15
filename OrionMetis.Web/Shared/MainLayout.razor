@@ -1,0 +1,56 @@
+﻿@inherits LayoutComponentBase
+    <div class="main">
+        <div class="top-row px-4">
+            <NavMenu />
+        </div>
+        <div>
+            @Body
+        </div>
+
+        <footer class="om-footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <h4 class="om-margin-b-20 om-gold-text">Orion Metis</h4>
+                        <p>
+                            204, 2nd Floor, 2nd Main Road, Mahalakshmi Layout, Mahalakshmi Layout, Bengaluru, Karnataka 560086
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+                        <div class="om-footer-links-container">
+                            <h4 class="om-margin-b-20 om-gold-text">Useful links</h4>
+                            <nav>
+                                <ul>
+                                    <li><a href="#customer"><i class="fa fa-stop"></i>Our Clients</a></li>
+                                    <li><a href="about.html"><i class="fa fa-stop"></i>About Us</a></li>
+                                    <li><a href="products.html"><i class="fa fa-stop"></i>Our Products</a></li>
+                                    <li><a href="contact.html"><i class="fa fa-stop"></i>Contact Us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-5 col-xl-5">
+                        <div class="contact-info">
+                            <div class="om-margin-b-20 om-gold-text">
+                                <h4>Contact Information</h4>
+                            </div>
+                            <ul>
+                                <li><span>Phone:</span>(080) 23596521, 23596539</li>
+                                <li><span>Mobile:</span>(+91) 9886894854, (+91) 94803333700</li>
+                                <li><span>Email:</span><a href="mailto:orionmetis@gmail.com">orionmetis@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                    </div>
+                    <div class="col-xs-12">
+                        <p class="om-copyright-text">
+                            © @DateTime.Now.Year - <a href="http://www.orionmetis.net">OrionMetis.net</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
